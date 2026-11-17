@@ -1,0 +1,23 @@
+{
+  "name": "cs312-online-banking",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "seed": "node --env-file=.env seed.js"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "express-session": "1.19.0",
+    "pg": "8.23.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "vite": "8.3.5",
+    "@vitejs/plugin-react": "6.2.1"
+  }
+}
